@@ -1,0 +1,3 @@
+This will be a VanillaJS application (no framework, most likely we will use NodeJS), that will connect to the smart phone apps and to the IPFS daemon. It will also connect to the Polygon blockchain. We should also have a database that keeps a list of the connected devices.
+
+When a Distress Signal comes in, we will broadcast that signal to all the devices that we have in our database, and we will also record the data in IPFS, and we will save the CID of that object on the blockchain.
